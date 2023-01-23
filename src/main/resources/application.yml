@@ -1,0 +1,46 @@
+#server:
+#  port: '8080'
+#
+#  spring:
+#    profiles:
+#      active: qa
+#
+#spring:
+#  profile: dev
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    url: jdbc:mysql://localhost:3306/crud-operation
+#    password: Admin@1010
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: 'true'
+#---
+#
+#  spring:
+#    profile: qa
+#    datasource:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      username: root
+#      url: jdbc:mysql://localhost:3306/crud-operation-qa
+#      password: Admin@1010
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: 'true'
+#
+#---
+#
+#  spring:
+#    profile: prod
+#    datasource:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      username: root
+#      url: jdbc:mysql://localhost:3306/crud-operation
+#      password: Admin@1010
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: 'true'
+#
